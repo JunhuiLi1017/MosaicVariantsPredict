@@ -1,0 +1,9 @@
+version: 1.0
+workflows:
+  - subclass: <WDL>
+    primaryDescriptorPath: <String>  # absolute path
+    testParameterFiles: <String Array>  # absolute path
+    readMePath: <String> # absolute path
+    authors:
+      - name: <Junhui Li>
+        email: <ljh.biostat@gmail.com>
